@@ -1,3 +1,4 @@
+import { useFBX } from "@react-three/drei";
 import {
   mobile,
   web,
@@ -5,16 +6,19 @@ import {
   typescript,
   html,
   css,
+  openai,
+  postcss,
   reactjs,
   redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  carrent,
-  jobit,
-  tripguide,
+  shoppy,
+  hoobank,
+  ai_summarizer,
   threejs,
+  UI_UX,
 } from "../assets";
 
 export const navLinks = [
@@ -34,14 +38,18 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Web Developer",
     icon: web,
   },
   {
     title: "React Native Developer",
     icon: mobile,
   },
- ];
+  {
+    title: "UI/UX",
+    icon:UI_UX,
+  } 
+  ];
 
 const technologies = [
   {
@@ -88,11 +96,19 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  {
+    name: "postcss",
+    icon: postcss,
+  },
+  {
+    name: "openai",
+    icon: openai,
+  },
 ];
 
 const projects = [
   {
-    name: "Car Hub",
+    name: "Ai-Summarizer",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -101,7 +117,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "netlify",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
@@ -109,7 +125,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: ai_summarizer,
     source_code_link: "https://github.com/",
   },
   {
@@ -122,36 +138,32 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: hoobank,
+    source_code_link: "https://github.com/parsingerror-line7/https---github.com-parsingerror-line7-BankUI-UX.git",
   },
   {
-    name: "Trip Guide",
+    name: "E-Commerce Dashboard",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "a user interface that displays a set of metrics and key performance indicators (KPIs) related to the sales, revenue, products, and customers of an e-commerce business..",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "react",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: shoppy,
     source_code_link: "https://github.com/",
   },
 ];

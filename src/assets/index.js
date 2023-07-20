@@ -12,14 +12,19 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
+import openai from "./tech/openai.png";
+import postcss from "./tech/postcss.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import shoppy from "./shoppy.png";
+import hoobank from "./hoobank.png";
+import ai_summarizer  from "./ai_summarizer.png";
+import UI_UX from "./UI-UX.png";
+
+
 
 export {
   logo,
@@ -35,12 +40,15 @@ export {
   javascript,
   mongodb,
   nodejs,
+  openai,
+  postcss,
   reactjs,
   redux,
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+  shoppy,
+  hoobank,
+  ai_summarizer,
+  UI_UX,
 };
